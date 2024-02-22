@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+/Users/gangjinho/Downloads/JINO/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3442882941.index
+/UsrChat/src/main/java
