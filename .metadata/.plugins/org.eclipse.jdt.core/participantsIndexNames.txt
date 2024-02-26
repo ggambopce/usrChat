@@ -1,4 +1,6 @@
 INDEX VERSION 1.134
+/Users/gangjinho/Downloads/JINO/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1295202673.index
+/UserChat/src/main/java
 /Users/gangjinho/Downloads/JINO/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1451625898.index
 /UsrChat/src/main/java
 /Users/gangjinho/Downloads/JINO/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/819959906.index
