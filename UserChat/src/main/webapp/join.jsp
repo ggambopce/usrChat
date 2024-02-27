@@ -4,8 +4,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<title>JSP Ajax 회원제 채팅 서비스</title>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
@@ -63,7 +63,7 @@
 			%>
 		</div>
 	</nav>
-	<div class="contaniner">
+	<div class="container">
 		<form method="post" action="./userRegister">
 			<table class="table table-bordered table-hover" style="text-align: center; border: 1px solid #dddddd">
 				<thead>
@@ -75,7 +75,7 @@
 					<tr>
 						<td style="width: 110px;"><h5>아이디</h5></td>
 						<td><input class="form-control" type="text" id="userId" name="userID" maxlength="20" placeholder="아이디를 입력하세요."></td>
-						<td style="width: 110px;"><button class="btn btn-primary" onclick="registerCheckFunction();" type="botton">중복체크</button>	
+						<td style="width: 110px;"><button class="btn btn-primary" onclick="registerCheckFunction();" type="button">중복체크</button>	
 					</tr>
 					<tr>
 						<td style="width: 110px;"><h5>비밀번호</h5></td>
@@ -97,15 +97,16 @@
 						<td style="width: 110px;"><h5>성별</h5></td>
 						<td colspan="2">
 							<div class="form-group" style="text-align: center; margin: 0 auto;">
-								<div class="btn-group" data-toggle="button">
+								<div class="btn-group" data-toggle="buttons">
 									<label class="btn btn-primary active">
 										<input type="radio" name="userGender" autocomplete="off" value="남자" checked>남자
 									</label>
 								</div>
-								<div class="btn-group" data-toggle="button">
+								<div class="btn-group" data-toggle="buttons">
 									<lable class="btn btn-primary">
 										<input type="radio" name="userGender" autocomplete="off" value="여자">여자
 									</lable>
+								</div>
 							</div>
 						</td>
 					</tr>
@@ -114,7 +115,6 @@
 						<td colspan="2"><input class="form-control" id="userEmail" type="email" name="userEmail" maxlength="20" placeholder="이메일을 입력하세요."></td>
 					</tr>
 				</tbody>
-			
 			</table>
 		</form>
 	</div>
